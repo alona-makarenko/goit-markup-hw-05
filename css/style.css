@@ -491,6 +491,7 @@ img {
   color: #fff;
   border: 1px solid #fff;
   border-radius: 4px;
+  outline: transparent;
   width: 264px;
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -515,7 +516,7 @@ img {
   justify-content: center;
   align-items: center;
   min-width: 165px;
-  padding: 8px 64px 8px 24px;
+  padding-top: 8px 24px;
 }
 
 .subscribe-icon {
