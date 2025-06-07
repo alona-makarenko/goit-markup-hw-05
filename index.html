@@ -541,19 +541,16 @@
                 name="user-email"
                 placeholder="E-mail"
             /></label>
-            <div class="subscribe-btn-icon">
-              <button class="button subscribe-btn" type="submit">
-                Subscribe
-              </button>
-              <svg class="subscribe-icon" width="24" height="24">
+            <button class="button subscribe-btn" type="submit">
+              Subscribe<svg class="subscribe-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
-            </div>
+            </button>
           </form>
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button class="modal-close-btn" type="button">
           <svg class="modal-icon-close" width="8" height="8">
@@ -601,7 +598,7 @@
               </svg>
             </div>
           </div>
-          <div class="modal-field">
+          <div class="modal-field modal-field-comment">
             <label class="modal-input-text" for="user-comment">Comment</label>
             <textarea
               class="modal-textarea modal-item"
